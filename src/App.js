@@ -33,7 +33,7 @@ function App() {
 	if (tempIndex == 3) {
 		answers.push(correct_answer);
 	} else {
-		answers.push(answers[index]);
+		answers.push(answers[tempIndex]);
 		answers[tempIndex] = correct_answer;
 	}
 
